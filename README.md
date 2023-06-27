@@ -26,7 +26,7 @@ python -c "import sounddevice, numpy, matplotlib, scipy, tensorflow, librosa"
 
 ### ２．実行
 
-実際の分離を行うには``src``ディレクトリにある``prediction.py``を使います。このとき、訓練済モデルを使う場合は...
+実際の分離を行うには``src``ディレクトリにある``pred.py``を使います。訓練済みモデル``model_mfcc.h5``が入っているので、このまま実行してください。ゲームとつなげず、ターミナル上で分離だけ行う場合は``prediction.py``を実行してください。
 
 ## 自分で用意したデータセットを使う場合や新たにデータを追加して分離精度を上げたい場合
 
